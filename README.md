@@ -7,14 +7,16 @@ For update tool for  PostgreSQL database
 1. run update-pgdb
 
 ### .env file parameters
-DB_HOST  PostgreSQL host  
-DB_PORT  PostgreSQL port  
-DB_NAME  PostgreSQL database name  
-DB_USER  PostgreSQL user  
-DB_PASSWORD PostgreSQL password   
-DB_SCHEMA  PostgreSQL schema  
-FILE_NAME  SQL file name to execute  
-OG_FILE_NAME= Log file name  
+| Parameter | Description              |
+| --- |--------------------------|
+|DB_HOST| PostgreSQL host          |
+|DB_PORT| PostgreSQL port          |
+|DB_NAME| PostgreSQL database name |
+|DB_USER| PostgreSQL user          | 
+|DB_PASSWORD| PostgreSQL password      |
+|DB_SCHEMA| PostgreSQL schema        |
+|FILE_NAME| SQL file name to execute |
+|LOG_FILE_NAME| Log file name            |
 
 ### update.sql file
 The // at the beginning of a line is treated as a comment.  
